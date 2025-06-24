@@ -113,7 +113,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center w-full">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-accent-orange animate-bounce-in">Ntinyari</h1>
-        <p className="text-lg sm:text-xl md:text-2xl text-gray-100 mb-8 max-w-2xl animate-fade-in-up">I'm a passionate developer crafting modern, professional web experiences.</p>
+        <p className="text-lg sm:text-xl md:text-2xl text-gray-100 mb-8 max-w-2xl animate-fade-in-up">I don't just build websites — I craft modern digital experiences with passion, precision, and a love for clean logic.</p>
         <a href="#about" className="mt-4 px-8 py-3 bg-accent-red text-white font-semibold rounded-full shadow-lg hover:bg-accent-orange transition duration-300 ease-in-out transform hover:-translate-y-1 animate-pulse-slow">
           ABOUT ME
         </a>

@@ -33,6 +33,11 @@ const Testimonials = () => (
         ))}
       </div>
     </FadeInSection>
+    <div className="mt-10 flex justify-center">
+      <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-red text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent-orange animate-bounce-in">
+        Let's Work Together
+      </a>
+    </div>
   </section>
 );
 

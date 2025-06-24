@@ -16,9 +16,14 @@ const About = () => (
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-accent-orange animate-bounce-in">About Me</h2>
           <FadeInSection animation="fade-in-up" delay={120}>
             <p className="text-base md:text-lg text-gray-300">
-              I am a dedicated and creative developer with a passion for building modern, user-friendly web applications. My expertise spans front-end and back-end technologies, and I thrive on turning ideas into impactful digital experiences.
+              I am a dedicated and creative developer with a passion for building modern, user-friendly web applications. My expertise spans front-end and back-end technologies, and I thrive on turning ideas into impactful digital experiences—where elegant design meets smart, logical architecture.
             </p>
           </FadeInSection>
+          <div className="mt-8 flex justify-center md:justify-start">
+            <a href="#resume" className="inline-block bg-accent-orange hover:bg-accent-red text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent-orange animate-bounce-in">
+              View Resume
+            </a>
+          </div>
         </FadeInSection>
       </div>
     </div>

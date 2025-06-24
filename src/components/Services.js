@@ -24,6 +24,20 @@ const services = [
     title: 'Consulting',
     description: 'Providing expert advice to help you achieve your digital goals.'
   },
+  {
+    icon: (
+      <svg className="w-10 h-10 mx-auto mb-4 text-accent-red" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" /></svg>
+    ),
+    title: 'Cybersecurity & Forensics Consulting',
+    description: 'Protecting your digital assets and investigating incidents with expertise in information security and forensics.'
+  },
+  {
+    icon: (
+      <svg className="w-10 h-10 mx-auto mb-4 text-accent-orange" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 17v.01"/><path d="M19.07 4.93a10 10 0 1 1-14.14 0"/><path d="M12 7v5l3 3"/></svg>
+    ),
+    title: 'Vulnerability Assessment & Penetration Testing',
+    description: 'Identifying, testing, and mitigating security risks in your systems and applications to keep your business safe.'
+  },
 ];
 
 const Services = () => (
@@ -44,6 +58,11 @@ const Services = () => (
         ))}
       </div>
     </FadeInSection>
+    <div className="mt-10 flex justify-center">
+      <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-red text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent-orange animate-bounce-in">
+        Contact Me
+      </a>
+    </div>
   </section>
 );
 
