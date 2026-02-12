@@ -16,6 +16,8 @@ const Resume = () => (
               <li><span className="font-bold">BSc in Information Security and Forensics</span> - KCA University (2021-2025)</li>
               <li><span className="font-bold">Web Development Bootcamp</span> - Online (2022)</li>
               <li><span className="font-bold">Cisco Certification</span> - Cisco (Year)</li>
+              <li><span className="font-bold">CyberSecurity</span> -ALX (2025-2026)</li> 
+              <li><span className="font-bold">Front-End Web Development</span> -ALX(2025-2026)</li>
             </ul>
           </div>
         </FadeInSection>
