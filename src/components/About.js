@@ -16,7 +16,7 @@ const About = () => (
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-accent-orange animate-bounce-in">About Me</h2>
           <FadeInSection animation="fade-in-up" delay={120}>
             <p className="text-base md:text-lg text-gray-300">
-              I am a dedicated and creative developer with a passion for building modern, user-friendly web applications. My expertise spans front-end and back-end technologies, and I thrive on turning ideas into impactful digital experiences—where elegant design meets smart, logical architecture.
+             I specialize in Information Security and Digital Forensics, with a broad focus across vulnerability assessment, network traffic analysis, incident investigation, and systems hardening. Alongside my work in security defense and digital investigations, I also build modern, production grade web applications. My work spans the entire lifecycle of technology: understanding how systems are probed and compromised, safeguarding critical infrastructure, and engineering reliable software from the ground up.
             </p>
           </FadeInSection>
           <div className="mt-8 flex justify-center md:justify-start">
