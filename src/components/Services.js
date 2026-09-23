@@ -5,38 +5,57 @@ import BubbleParticles from './BubbleParticles';
 const services = [
   {
     icon: (
-      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 20l9-5-9-5-9 5 9 5z" /><path d="M12 12V4l8 4-8 4-8-4 8-4z" /></svg>
+      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+      </svg>
     ),
-    title: 'Web Development',
-    description: 'Building responsive and modern web applications tailored to your needs.'
+    title: 'Secure Web Development',
+    description: 'Building responsive web applications and PWAs using modern stacks, engineered for performance and secured by design.'
   },
   {
     icon: (
-      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M8 12l2 2 4-4" /></svg>
+      <svg className="w-10 h-10 mx-auto mb-4 text-accent-red" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      </svg>
     ),
-    title: 'UI/UX Design',
-    description: 'Designing intuitive and engaging user interfaces for a seamless experience.'
+    title: 'Vulnerability Assessment & Pentesting',
+    description: 'Proactively identifying and remediating vulnerabilities across web applications, APIs, and server endpoints.'
   },
   {
     icon: (
-      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" /><path d="M16 3v4M8 3v4" /></svg>
+      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+      </svg>
     ),
-    title: 'Consulting',
-    description: 'Providing expert advice to help you achieve your digital goals.'
+    title: 'Network Engineering & Hardening',
+    description: 'Designing secure routing and switching topologies, VLAN segmentation, ACL policies, and enterprise network defense.'
   },
   {
     icon: (
-      <svg className="w-10 h-10 mx-auto mb-4 text-accent-red" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" /></svg>
+      <svg className="w-10 h-10 mx-auto mb-4 text-accent-orange" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
     ),
-    title: 'Cybersecurity & Forensics Consulting',
-    description: 'Protecting your digital assets and investigating incidents with expertise in information security and forensics.'
+    title: 'Digital Forensics & Investigation',
+    description: 'Analyzing network traffic, log artifacts, and digital evidence to investigate security incidents and maintain data integrity.'
   },
   {
     icon: (
-      <svg className="w-10 h-10 mx-auto mb-4 text-accent-orange" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 17v.01"/><path d="M19.07 4.93a10 10 0 1 1-14.14 0"/><path d="M12 7v5l3 3"/></svg>
+      <svg className="w-10 h-10 mx-auto mb-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+      </svg>
     ),
-    title: 'Vulnerability Assessment & Penetration Testing',
-    description: 'Identifying, testing, and mitigating security risks in your systems and applications to keep your business safe.'
+    title: 'UI/UX & Product Design',
+    description: 'Crafting modern, intuitive, and accessible interfaces that provide frictionless journeys for end users.'
+  },
+  {
+    icon: (
+      <svg className="w-10 h-10 mx-auto mb-4 text-accent-red" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+      </svg>
+    ),
+    title: 'Backend & Database Architecture',
+    description: 'Architecting scalable RESTful APIs, secure authentication flows, automated payment processing, and resilient data storage.'
   },
 ];
 
@@ -45,25 +64,27 @@ const Services = () => (
     <BubbleParticles />
     <FadeInSection animation="fade-in-up">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-accent-orange animate-bounce-in">Services</h2>
-      <div className="max-w-6xl mx-auto grid gap-y-16 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-6xl mx-auto grid gap-y-12 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, idx) => (
-          <FadeInSection key={idx} animation={idx % 2 === 0 ? 'bounce-in' : 'fade-in-up'} delay={idx * 120}>
-            <div className={`relative group bg-neutral-900 rounded-3xl shadow-accent-orange p-8 text-center hover:scale-105 hover:shadow-accent transition-transform duration-500 flex flex-col ${idx % 2 === 1 ? 'md:mt-12' : ''}`}>
+          <FadeInSection key={idx} animation={idx % 2 === 0 ? 'bounce-in' : 'fade-in-up'} delay={idx * 100}>
+            <div className="relative group bg-neutral-900 rounded-3xl shadow-accent-orange p-8 text-center hover:scale-105 hover:shadow-accent transition-transform duration-500 flex flex-col h-full justify-between">
               <div className="absolute left-0 top-0 h-full w-2 bg-accent-red rounded-tr-3xl rounded-br-3xl"></div>
-              <div className="flex justify-center items-center mb-4 animate-wiggle">{service.icon}</div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2 text-accent-orange drop-shadow-lg animate-pulse-slow">{service.title}</h3>
-              <p className="text-gray-300 text-sm md:text-base mb-2">{service.description}</p>
+              <div>
+                <div className="flex justify-center items-center mb-4 animate-wiggle">{service.icon}</div>
+                <h3 className="text-xl font-bold mb-3 text-accent-orange drop-shadow-lg">{service.title}</h3>
+                <p className="text-gray-300 text-sm md:text-base leading-relaxed">{service.description}</p>
+              </div>
             </div>
           </FadeInSection>
         ))}
       </div>
     </FadeInSection>
-    <div className="mt-10 flex justify-center">
-      <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-red text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent-orange animate-bounce-in">
+    <div className="mt-12 flex justify-center">
+      <a href="#contact" className="inline-block bg-accent-orange hover:bg-accent-red text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent-orange animate-bounce-in">
         Contact Me
       </a>
     </div>
   </section>
 );
 
-export default Services; 
+export default Services;
