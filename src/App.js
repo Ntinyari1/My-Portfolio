@@ -7,10 +7,9 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 
 // Social Media Links Data
-// Social Media Links Data
 const socialLinks = [
   {
-    href: 'https://wa.me/254113500323?text=Hi%20Ntinyari%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect'
+    href: 'https://wa.me/254113500323?text=Hi%20Ntinyari%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect.',
     label: 'WhatsApp',
     icon: (
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -73,7 +72,7 @@ function Nav({ navLinks, socialLinks }) {
         </ul>
         {/* Social Icons Right (Desktop) */}
         <div className="hidden md:flex items-center space-x-4">
-          {socialLinks.map((link, idx) => (
+          {socialLinks.map(link => (
             <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" aria-label={link.label} className="hover:text-accent-red text-accent-orange transition animate-wiggle">
               {link.icon}
             </a>
@@ -103,7 +102,7 @@ function Nav({ navLinks, socialLinks }) {
             ))}
           </ul>
           <div className="flex space-x-4 mt-4">
-            {socialLinks.map((link, idx) => (
+            {socialLinks.map(link => (
               <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" aria-label={link.label} className="hover:text-accent-red text-accent-orange transition animate-wiggle">
                 {link.icon}
               </a>
@@ -125,7 +124,6 @@ function Hero() {
         backgroundImage: 'url(https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=1200)',
       }}
     >
-      {/* Overlay to darken background image for better text readability */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center w-full">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-accent-orange animate-bounce-in">Ntinyari</h1>
@@ -142,13 +140,8 @@ function Hero() {
 export default function App() {
   return (
     <div className="min-h-screen bg-primary text-gray-900 font-sans">
-      {/* Navigation Component */}
       <Nav navLinks={navLinks} socialLinks={socialLinks} />
-      
-      {/* Hero Component */}
       <Hero />
-
-      {/* Other Sections */}
       <About />
       <Projects />
       <Resume />
