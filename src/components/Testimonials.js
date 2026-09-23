@@ -4,12 +4,12 @@ import BubbleParticles from './BubbleParticles';
 
 const testimonials = [
   {
-    name: 'Jane Doe',
+    name: 'Brian Mutua',
     role: 'Product Manager',
     quote: 'Ntinyari is a talented developer who delivers high-quality work on time. Highly recommended!'
   },
   {
-    name: 'John Smith',
+    name: 'Mercy Maina',
     role: 'CEO, Startup Inc.',
     quote: 'Professional, creative, and reliable. My go-to for web projects.'
   },
